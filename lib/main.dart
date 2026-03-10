@@ -28,7 +28,7 @@ void main() {
   }
 
   //测试地图插件功能
-  
+  //这是本地的代码
 
   //测试时间
   DateTime _nowtime = DateTime.now();
@@ -36,7 +36,7 @@ void main() {
   print("取时间前12位的数值为："+ str);
   if(_nowtime.weekday == DateTime.sunday || _nowtime.weekday == DateTime.monday)
   {
-    print("today is 星期" + _nowtime.weekday.toString());
+    print("today is 星期测试" + _nowtime.weekday.toString());
   }
 
   //测试数据
