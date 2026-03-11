@@ -73,6 +73,8 @@ void main() {
       }
     });
 
+    //重启间隔时间
+    print(ramnum.toString() + "秒后重启！" );
 
   }
 }
